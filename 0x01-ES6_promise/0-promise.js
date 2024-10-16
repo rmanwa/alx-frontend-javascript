@@ -3,9 +3,9 @@ export default function getResponseFromAPI() {
     setTimeout(() => {
       const success = true;
       if (success) {
-        resolve("Data received successfully");
+        resolve('Data received successfully');
       } else {
-        reject("Error: Failed to get response from API");
+        reject('Error: Failed to get response from API');
       }
     }, 1000);
   });
