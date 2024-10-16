@@ -5,7 +5,7 @@ export default function getResponseFromAPI() {
       if (success) {
         resolve('Data received successfully');
       } else {
-        reject('Error: Failed to get response from API');
+        reject(new Error ('Failed to get response from API');
       }
     }, 1000);
   });
